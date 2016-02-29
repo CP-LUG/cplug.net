@@ -95,7 +95,7 @@ foreach ($meetup_events as $event) {
                     }
                     ?>
                 </table>
-                <button class="btn btn-primary" style="margin-top: 20px;">Click For Full Calendar</button>
+                <a href="http://www.meetup.com/cp-lug/events/"class="btn btn-primary" style="margin-top: 20px;" target="_blank">Full Calendar</a>
             </div>
         </div>
     </div>
