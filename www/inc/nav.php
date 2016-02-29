@@ -19,9 +19,9 @@
 
         <div class="collapse navbar-collapse" id="cplug-nav">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Home</a></li>
-                <li><a href="contact.php" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Contact</a></li>
-                <li><a href="directions.php" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Directions</a></li>
+                <li><a href="index.php" class="dropdown-toggle<?php if ($nav_page == 'home') { echo ' active'; } ?>" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Home</a></li>
+                <li><a href="contact.php" class="dropdown-toggle<?php if ($nav_page == 'contact') { echo ' active'; } ?>" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Contact</a></li>
+                <li><a href="directions.php" class="dropdown-toggle<?php if ($nav_page == 'directions') { echo ' active'; } ?>" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Directions</a></li>
             </ul>
         </div>
     </div>

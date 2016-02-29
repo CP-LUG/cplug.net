@@ -10,7 +10,10 @@
 </head>
 
 <body>
-    <?php require 'inc/nav.php'; ?>
+    <?php
+    $nav_page = 'directions';
+    require 'inc/nav.php';
+    ?>
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6">

@@ -35,7 +35,10 @@ foreach ($meetup_events as $event) {
 </head>
 
 <body>
-    <?php require 'inc/nav.php'; ?>
+    <?php
+    $nav_page = 'home';
+    require 'inc/nav.php';
+    ?>
     <div class="container">
         <h1 class="blue tagline">Open Your world.</h1>
         <div class="row">
