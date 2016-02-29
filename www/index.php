@@ -1,3 +1,28 @@
+<?php
+// make a curl call to the api
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, 'https://api.meetup.com/2/events?status=upcoming&group_urlname=cp-lug');
+curl_setopt($ch, CURLOPT_HEADER, false);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+// execute the curl call
+$resp = curl_exec($ch);
+// close the curl connection
+curl_close($ch);
+
+// parse the json responce
+$meetup_events = json_decode($resp, true);
+$meetup_events = array_slice($meetup_events['results'], 0, 2);
+
+$events = array();
+foreach ($meetup_events as $event) {
+    $events[] = array(
+        'name' => $event['name'],
+        'time' => substr($event['time'], 0, -3),
+        'description' => $event['description'],
+        'link' => $event['event_url'],
+    );
+}
+?>
 <!doctype html>
 <html>
 <head>
@@ -56,24 +81,19 @@
             <div class="col-xs-12 col-sm-6">
                 <h3 class="blue">Events</h3>
                 <table class="event_table">
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <div  class="thin_border event_date">feb<br />25</div>
-                        </td>
-                        <td class="thin_border event_description">
-                            <h4 class="event_headline">february meetup</h4>
-                            <span class="event_copy">Description Epreprae et ipsaper roreratur? Ulparum initis volume quissim poreped quibus re cum nonsectur?</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <div  class="thin_border event_date">feb<br />25</div>
-                        </td>
-                        <td class="thin_border event_description">
-                            <h4 class="event_headline">february meetup</h4>
-                            <span class="event_copy">Description Epreprae et ipsaper roreratur? Ulparum initis volume quissim poreped quibus re cum nonsectur?</span>
-                        </td>
-                    </tr>
+                    <?php
+                    foreach ($events as $event) {
+                        echo '<tr>
+                            <td style="vertical-align: top;">
+                                <div class="thin_border event_date">' . date('M', $event['time']) . '<br />' . date('d', $event['time']) . '</div>
+                            </td>
+                            <td class="thin_border event_description">
+                                <h4 class="event_headline"><a href="' . $event['link'] . '" target="_blank">' . $event['name'] . '</a></h4>
+                                <span class="event_copy">' . $event['description'] . '</span>
+                            </td>
+                        </tr>';
+                    }
+                    ?>
                 </table>
                 <button class="btn btn-primary" style="margin-top: 20px;">Click For Full Calendar</button>
             </div>
