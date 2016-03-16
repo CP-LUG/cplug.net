@@ -40,7 +40,7 @@ foreach ($meetup_events as $event) {
     require 'inc/nav.php';
     ?>
     <div class="container">
-        <h1 class="blue tagline">Open Your world.</h1>
+        <h1 class="blue tagline">Open Your world</h1>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <h3 class="blue">About CPLUG</h3>
