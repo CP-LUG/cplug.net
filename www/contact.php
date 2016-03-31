@@ -82,23 +82,22 @@ if (!empty($data)) {
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <h3 class="blue">IRC Channel</h3>
-                <p>IRC stands for Internet Relay Chat. It has been around since the late 1980's as a protocol for communicating instantly over a network. It still has some advantages over instant messaging systems like Gtalk or Skype.</p>
-                <p>To connect from an IRC client, use the following settings:</p>
+                <p>Our preferred method of interaction is IRC (or Internet Relay Chat) a late 1980&rsquo;s invention which is still used worldwide for real time communication. When you&rsquo;re ready to <a href="https://grove.io/help/irc/clients/xchat" target="_blank">connect with us</a>, use the settings below:</p>
                 <ul>
                     <li>Server: irc.cplug.net</li>
                     <li>Port: 6667 (not encrypted) or 6697 (encrypted)</li>
                     <li>Channel: #cplug</li>
                 </ul>
-                <p>If you're unfamiliar with IRC client's, are behind a proxy, or simply want to do it the easy way, you can use our <a href="http://www.cplug.net/irc/" target="_blank">web interface</a>.</p>
+                <p>Unfamiliar with IRC clients? Behind a proxy? Or maybe you just prefer doing things the old-fashioned way? Use our <a href="http://www.cplug.net/irc/" target="_blank">web interface</a>.</p>
             </div>
             <div class="col-xs-12 col-sm-6">
                 <h3 class="blue">CPLUG Mailing List</h3>
-                <p>To subsribe to the list you select from the drop down menu what type of subscription you would like. <strong>The options are Regular, Digest and No Mail.</strong></p>
-                <p><strong>Regular</strong> subscription means that you may post to the list and and all postings to the list will be delivered to that address as they happen. </p>
-                <p><strong>Digest</strong> means that you will only get one email per day and that email will contain all the messages that were posted to the list that day. </p>
-                <p><strong>No Mail</strong> option is for folks that want to subscribe multiple addresses, however do not want a copy of every post to the list to go to each account.</p>
-                <p><strong>Unsubscribe</strong> option is to remove yourself from any mailing list.</p>
-                <p>If you are unsure you probably want Regular.</p>
+                <p>If you&rsquo;re a fan of email, you can easily subscribe to your preferred option in the drop down menu (Regular, Digest, or No Mail) and leave the rest up to us.</p>
+                <p><strong>Regular</strong> subscribers may post to the list, and all postings will be delivered to the chosen address as they happen.</p>
+                <p><strong>Digest</strong> subscribers receive a maximum of one daily email containing all the messages that were posted to the list for that day.</p>
+                <p><strong>No Mail</strong> is for those who like subscribing to multiple addresses, but without the requisite copy of every post being sent to each account.</p>
+                <p><strong>Unsubscribe</strong> removes you from our mailing list.</p>
+                <p>Unsure of your choice? Then we suggest you go with Regular.</p>
                 <form id="frmRegister">
                     <fieldset class="form-group">
                         <select class="form-control" name="sub_type">
