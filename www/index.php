@@ -56,9 +56,9 @@ if (count($events) > $max_events_to_show) {
         <h1 class="blue tagline">Open Your world</h1>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
-                <h3 class="blue">About CPLUG</h3>
-                <p>CPLUG (Central Pennsylvania Linux Users Group) has been actively involved in the Harrisburg area since before 1997. Our focus is on everything open source, and we sometimes stray from the core Linux concepts to build on the other facets of the industry, like Android, networking and gaming. Everyone is welcome, regardless of background or experience.</p>
-                <p>The active members at CPLUG consist of a variety of hobbyists and professional, so our meetings are intended to benefit all levels of expertise.</p>
+                <h3 class="blue">What is CPLUG?</h3>
+                <p>Actively involved in the Harrisburg, PA area since the mid 1990’s, CPLUG (Central Pennsylvania Linux Users Group) is a diverse combination of hobbyists and computer professionals. Our members (and occasional guest speakers) conduct regular monthly forums geared to all levels of expertise. Though our primary focus is on open source software, we occasionally divert our attention to other key facets of the industry, including Android, networking and gaming.</p>
+                <p>Open to all backgrounds and experience levels.</p>
             </div>
             <?php if (count($events) > 0): ?>
                 <div class="col-xs-12 col-sm-6">
