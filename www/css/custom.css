@@ -96,7 +96,7 @@ body {
     color: #ffffff;
 }
 
-#footer {
+footer {
   position: absolute;
   bottom: 0px;
   min-height: 50px;

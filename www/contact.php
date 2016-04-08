@@ -115,6 +115,7 @@ if (!empty($data)) {
             </div>
         </div>
     </div>
+    <?php require 'inc/footer.php'; ?>
     <?php require 'inc/scripts_bottom.php'; ?>
     <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script>
