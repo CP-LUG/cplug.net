@@ -1,3 +1,4 @@
+/*Custom Css Sheet*/
 html {
   position: relative;
   min-height: 100%;
@@ -6,8 +7,15 @@ html {
 body {
   margin-bottom: 100px;
 }
-
-/*Custom Css Sheet*/
+footer {
+  position: absolute;
+  bottom: 0px;
+  min-height: 50px;
+  width: 100%;
+  color:#fff;
+  background: #333;
+  padding: 5px;
+} 
 .btn-primary {
     background-color: #00adef;
     border-color: #00adef;
@@ -46,6 +54,7 @@ body {
     color: #ffffff;
     box-shadow: 0 -5px #00adef inset;
 }
+
 /*CONTENT*/
 .tagline {
     text-transform: uppercase;
@@ -60,25 +69,25 @@ body {
 .thin_border.event_date {
     border-right: 0px;
 }
-
 .event_date {
     font-size: 24px;
     text-align: center;
     color: #00adef;
     text-transform: uppercase;
     font-weight: 700;
-
 }
 .event_description {
+  background: #eee;
 }
 .event_headline {
     margin-top: 0px;
-    color: #00adef;
+    color: #000;
     text-transform: uppercase;
 }
 .event_copy {
-    color: #eac31c;
+    color: #000;
 }
+
 /*COLORS*/
 .yellow {
     color: #eac31c;
@@ -95,13 +104,3 @@ body {
 .white {
     color: #ffffff;
 }
-
-footer {
-  position: absolute;
-  bottom: 0px;
-  min-height: 50px;
-  width: 100%;
-  color:#fff;
-  background: #333;
-  padding: 5px;
-} 
