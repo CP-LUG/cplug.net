@@ -81,11 +81,11 @@ footer {
 }
 .event_headline {
     margin-top: 0px;
-    color: #000;
+    color: #333;
     text-transform: uppercase;
 }
 .event_copy {
-    color: #000;
+    color: #333;
 }
 
 /*COLORS*/
