@@ -36,6 +36,7 @@
             </div>
         </div>
     </div>
+    <?php require 'inc/footer.php'; ?>
     <?php require 'inc/scripts_bottom.php'; ?>
 </body>
 </html>

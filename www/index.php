@@ -83,6 +83,7 @@ if (count($events) > $max_events_to_show) {
             <?php endif; ?>
         </div>
     </div>
+    <?php require 'inc/footer.php'; ?>
     <?php require 'inc/scripts_bottom.php'; ?>
 </body>
 </html>
