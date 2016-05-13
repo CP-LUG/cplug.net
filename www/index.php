@@ -82,6 +82,17 @@ if (count($events) > $max_events_to_show) {
                 </div>
             <?php endif; ?>
         </div>
+        <div class="row">
+            <div class="col-xs-2 col-sm-3 col-md-4"></div>
+            <div class="col-xs-8 col-sm-6 col-md-4">
+                <br />
+                <b>Sponsored by:</b><br />
+                <a href="https://www.TEKsystems.com" target="_blank">
+                    <img src="images/TEKsystems-logo.jpg" alt="TEKsystems Logo" class="img-responsive" />
+                </a>
+            </div> 
+            <div class="col-xs-2 col-sm-3 col-md-4"></div>
+        </div>
     </div>
     <?php require 'inc/footer.php'; ?>
     <?php require 'inc/scripts_bottom.php'; ?>
