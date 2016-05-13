@@ -59,6 +59,16 @@ if (count($events) > $max_events_to_show) {
                 <h3 class="blue">What is CPLUG?</h3>
                 <p>Actively involved in the Harrisburg, PA area since the mid 1990’s, CPLUG (Central Pennsylvania Linux Users Group) is a diverse combination of hobbyists and computer professionals. Our members (and occasional guest speakers) conduct regular monthly forums geared to all levels of expertise. Though our primary focus is on open source software, we occasionally divert our attention to other key facets of the industry, including Android, networking and gaming.</p>
                 <p>Open to all backgrounds and experience levels.</p>
+                <div class="hidden-xs">
+                    <h3 class="blue">Our Sponsors</h3>
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4">
+                            <a href="https://www.TEKsystems.com" target="_blank">
+                                <img src="images/TEKsystems-logo.jpg" alt="TEKsystems Logo" class="img-responsive img-thumbnail" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <?php if (count($events) > 0): ?>
                 <div class="col-xs-12 col-sm-6">
@@ -82,16 +92,13 @@ if (count($events) > $max_events_to_show) {
                 </div>
             <?php endif; ?>
         </div>
-        <div class="row">
-            <div class="col-xs-2 col-sm-3 col-md-4"></div>
-            <div class="col-xs-8 col-sm-6 col-md-4">
-                <br />
-                <b>Sponsored by:</b><br />
+        <div class="row visible-xs">
+            <div class="col-xs-12">
+                <h3 class="blue">Our Sponsors</h3>
                 <a href="https://www.TEKsystems.com" target="_blank">
-                    <img src="images/TEKsystems-logo.jpg" alt="TEKsystems Logo" class="img-responsive" />
+                    <img src="images/TEKsystems-logo.jpg" alt="TEKsystems Logo" class="img-responsive img-thumbnail" />
                 </a>
-            </div> 
-            <div class="col-xs-2 col-sm-3 col-md-4"></div>
+            </div>
         </div>
     </div>
     <?php require 'inc/footer.php'; ?>
