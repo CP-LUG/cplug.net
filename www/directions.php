@@ -18,12 +18,10 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <h3 class="blue">Meeting Location</h3>
-                <p>
-                    ITT Tech, Harrisburg Campus<br>
-                    449 Eisenhower Boulevard, Suite 100<br>
-                    Harrisburg, PA 17111
+		<p>
+                    Historically we met at ITT Tech in Harrisburg. Due to ITT closing, we are looking to settle at Penn State Harrisburg. In the meantime, you can find the location details on the meetup site.
                 </p>
-                <p>The Theory 9 Room is where we usually gather, but occasionally that room is unavailable for our use. If you can&rsquo;t find us, follow the signs for CPLUG.</p>
+                <p>If you can&rsquo;t find us, follow the signs for CPLUG.</p>
 
                 <h3 class="blue">Meeting Date &amp; Time</h3>
                 <p>2<sup>nd</sup> Tuesday of each month, 6:30 p.m.</p>
