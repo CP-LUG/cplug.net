@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.cplug.net [NC]
+RewriteRule ^(.*)$ http://cplug.net/$1 [L,R=301,NC]
