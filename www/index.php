@@ -42,7 +42,7 @@ if (count($events) > $max_events_to_show) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Welcome / Central PA Linux Users Group</title>
+    <title>Welcome | Central PA Linux Users Group</title>
 
     <?php require 'inc/scripts_top.php'; ?>
 </head>
