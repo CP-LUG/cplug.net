@@ -54,7 +54,7 @@ if (!empty($data)) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Contact / Central PA Linux Users Group</title>
+    <title>Contact | Central PA Linux Users Group</title>
 
     <?php require 'inc/scripts_top.php'; ?>
     <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">

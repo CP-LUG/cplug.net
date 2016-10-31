@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Directions / Central PA Linux Users Group</title>
+    <title>Directions | Central PA Linux Users Group</title>
 
     <?php require 'inc/scripts_top.php'; ?>
 </head>
