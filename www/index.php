@@ -88,7 +88,7 @@ if (count($events) > $max_events_to_show) {
                         }
                         ?>
                     </table>
-                    <a href="http://www.meetup.com/cp-lug/events/"class="btn btn-primary" style="margin-top: 20px;" target="_blank">Full Calendar</a>
+                    <a href="http://www.meetup.com/cp-lug/events/" class="btn btn-primary" style="margin-top: 20px;" target="_blank">Full Calendar</a>
                 </div>
             <?php endif; ?>
         </div>
