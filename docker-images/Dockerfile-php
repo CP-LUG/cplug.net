@@ -1,0 +1,10 @@
+FROM php:7-apache
+
+# install the php modules we need
+RUN docker-php-ext-install pdo_mysql mbstring tokenizer
+
+# replace the default document root
+RUN sed -i 's#/var/www/html#/var/www/html/public#' /etc/apache2/sites-available/000-default.conf
+
+# enable mod_rewrite
+RUN a2enmod rewrite

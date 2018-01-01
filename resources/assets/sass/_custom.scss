@@ -1,0 +1,101 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    min-height: 50px;
+    width: 100%;
+    color: #FFF;
+    background: #333;
+    padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $cplug_blue;
+}
+
+.btn-primary {
+    background-color: $cplug_blue;
+    border-color: $cplug_blue;
+
+    &:hover {
+        background-color: #008EC4;
+        border-color: $cplug_blue;
+    }
+}
+
+.navbar-light {
+    color: #FFF;
+    background-color: $cplug_yellow;
+
+
+    .navbar-brand {
+        color: #FFF;
+
+        .logo {
+            max-height: 40px;
+        }
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: #FFF;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: .5px;
+        }
+
+        .nav-link:hover {
+            color: #FFF;
+            box-shadow: 0 -5px $cplug_blue inset;
+        }
+
+        .active > .nav-link, .nav-link.active {
+            color: #FFF;
+            box-shadow: 0 -5px $cplug_blue inset;
+        }
+    }
+}
+
+/*CONTENT*/
+.tagline {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: solid #CCCCCC 1px;
+    padding-bottom: 20px;
+}
+
+.thin_border {
+    padding: 20px;
+    border: solid #CCCCCC 1px;
+
+    &.event_date {
+        border-right: 0px;
+    }
+}
+
+.event_date {
+    font-size: 24px;
+    text-align: center;
+    color: $cplug_blue;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.event_description {
+    background: #EEE;
+}
+.event_headline {
+    margin-top: 0px;
+    color: #333;
+    text-transform: uppercase;
+}
+.event_copy {
+    color: #333;
+}
