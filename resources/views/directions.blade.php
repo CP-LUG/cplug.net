@@ -19,7 +19,7 @@
                 <p>ITT Tech is located on the corner of Paxton Street and Eisenhower Boulevard, under Belco, just down the road from the Harrisburg Mall. CPLUG meets on the lower level, and the simplest way to get there is to use the student entrance in the back.</p>
             </div>
             <div class="col-xs-12 col-sm-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d97443.1579190608!2d-76.88493243987456!3d40.25133808869269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89c8bf7a97838463%3A0x2ced247926299ced!2s449+Eisenhower+Boulevard%2C+Suite+100!3m2!1d40.251359199999996!2d-76.8148925!5e0!3m2!1sen!2sus!4v1455907141638" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63579.13046955145!2d-76.80511387630284!3d40.19412646731007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8be1ab0d6c2e1%3A0x571086de88311af1!2sPenn+State+Harrisburg!5e0!3m2!1sen!2sus!4v1516088302255"  width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
